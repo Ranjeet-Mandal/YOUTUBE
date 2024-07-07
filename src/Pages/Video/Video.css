@@ -1,0 +1,18 @@
+.play-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #f9f9f9;
+    padding: 20px 2% 2% 20px;
+}
+@media (max-width:900px){
+    .play-container{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+/* @media (maxx-width:410px){
+    .play-container{
+        width: 800px;
+    }
+} */
